@@ -13,7 +13,21 @@
         <button class="date-button">Dates calc</button>
         <button class="timer-button">Timer</button>
       </div>
-      <div class="date">Date calc</div>
+      <div class="date">Date calc
+        <form id="datecalc">
+            <h3>Калькулятор дат</h3>
+            <label>
+                <strong>Первая дата:</strong>
+                <input type="date" name="firstDate" />
+            </label>
+            <label>
+                <strong>Вторая дата:</strong>
+                <input type="date" name="secondDate" />
+            </label>
+            <button type="submit">Расчитать промежуток</button>
+            <p id="datecalc__result"></p>
+        </form>
+      </div>
       <div class="timer-hide">Timer
 
         <div><div class="timer-display">0</div>
