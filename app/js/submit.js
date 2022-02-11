@@ -1,6 +1,6 @@
 import { diffDates, diffToHtml } from "./datecalc.js";
 import { formatError as printError } from "./utils.js";
-import "./../node_modules/howler/dist/howler.core.min.js";
+import { Howl } from "./../../node_modules/howler/dist/howler.core.min.js";
 
 const dateCalcForm = document.getElementById("datecalc");
 const dateCalcResult = document.getElementById("datecalc__result");
@@ -50,7 +50,7 @@ const countDown = (inputTime) => {
     clearInterval(countDownId);
     timer.textContent = "Finished";
     var sound = new Howl({
-      src: ["./../src/mixkit-alarm-tone-996.wav"],
+      src: ["./app/assets/mixkit-alarm-tone-996.wav"],
     });
 
     sound.play();
