@@ -1,0 +1,16 @@
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./app/css/style.css ***!
+  \*********************************************************************/
+.date {
+  display: block;
+}
+.date-hide {
+  display: none;
+}
+.timer-hide {
+  display: none;
+}
+.timer {
+  display: block;
+}
+
