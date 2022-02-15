@@ -12430,3 +12430,13 @@ practice/src/assets/video/1.mp4
 practice/src/assets/video/2.mp4
 .DS_Store
 .DS_Store
+practice/build/src/assets/audio/1.mp3
+practice/build/src/assets/audio/2.mp3
+practice/build/src/assets/audio/3.mp3
+practice/build/src/assets/images/1.jpg
+practice/build/src/assets/images/2.jpg
+practice/build/src/assets/images/3.jpg
+practice/build/src/assets/images/4.gif
+practice/build/src/assets/video/1.mp4
+practice/build/src/assets/video/2.mp4
+.DS_Store
